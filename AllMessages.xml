@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ArrayOfMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message>
+    <Username>Zoli</Username>
+    <Text>Cso</Text>
+  </Message>
+  <Message>
+    <Username>Erik</Username>
+    <Text>Szeva</Text>
+  </Message>
+  <Message>
+    <Username>Zoli</Username>
+    <Text>Mi ujsag?</Text>
+  </Message>
+  <Message>
+    <Username>Peti</Username>
+    <Text>Hogy vagy tok?</Text>
+  </Message>
+  <Message>
+    <Username>Zoli</Username>
+    <Text>Kosz, te?</Text>
+  </Message>
+  <Message>
+    <Username>Peti</Username>
+    <Text>Kosz!</Text>
+  </Message>
+  <Message>
+    <Username>Erik</Username>
+    <Text>Egypt is gone</Text>
+  </Message>
+  <Message>
+    <Username>Zoli</Username>
+    <Text>YAAAAAY!</Text>
+  </Message>
+</ArrayOfMessage>
