@@ -1,0 +1,24 @@
+﻿@page
+@model CoolTweet.CreateCTweetModel
+@{
+    ViewData["Title"] = "CreateCTweet";
+}
+
+<h1>CreateCTweet</h1>
+<p>
+    @Model.Message
+</p>
+@{
+    string DoSomething(string a, string b)
+    {
+        Console.WriteLine(a+" Sziaszok "+b); //prints to console
+        return a + b + a; // returns to WebBrowser
+    }
+}
+
+<p>@DoSomething("hello", "world")</p>
+
+
+
+
+

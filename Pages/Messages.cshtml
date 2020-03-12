@@ -1,0 +1,38 @@
+﻿@page
+@model CoolTweet.Pages.MessagesModel
+@{
+}
+
+<h1>Messages</h1>
+@{ 
+    List<Message> messages;
+    MessagesModel mm = new MessagesModel(); //Here is the exception thrown
+    string filename = "AllMessages.xml";
+    messages = mm.LoadMessages(filename);
+    foreach (var msg in messages) //Problem here
+    {
+        <p>@msg.ToString()</p>
+    }
+
+
+}
+
+
+@*
+@foreach (var username in MessagesModel.Messages.Keys)
+{
+    <h2>@username</h2>
+    @*<ul>
+        @foreach (var message in MessagesModel.Messages[username])
+        {
+            <li>@message.Timestamp: @message.Text</li>
+        }
+    </ul>
+    <ul>
+        @foreach (var message in MessagesModel.Messages[username])
+        {
+            <li>@message.Text - by @message.Username</li>
+        }
+    </ul>
+} *@
+
